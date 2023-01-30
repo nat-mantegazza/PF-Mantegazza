@@ -34,19 +34,45 @@
         <!--fin navbar-->
         <!--inicio main-->
         <main>
-            <div class="contacto">
-                <div class="contacto-title">
+            <div class="contact">
+                <div class="title">
                     <h2>Contacto</h2>
                     <h3>Introduzca la información y nos contactaremos con usted a la brevedad.</h3>
                 </div>
-                <div class="container-form">
-                    <form action="#">
+                <div class="container">
+                    <div class="contact-form row">
+                        <div class="form-field col-lg-6">
+                            <input type="text" id="nombre" class="input-text" name="nombre" required>
+                            <label for="nombre" class="label">Nombre</label>
+                        </div>
+                        <div class="form-field col-lg-6">
+                            <input type="text" id="apellido" class="input-text" name="apellido" required>
+                            <label for="apellido" class="label">Apellido</label>
+                        </div>
+                        <div class="form-field col-lg-6">
+                            <input type="email" id="email" class="input-text" name="email" required>
+                            <label for="email" class="label">Email</label>
+                        </div>
+                        <div class="form-field col-lg-6">
+                            <input type="text" id="telefono" class="input-text" name="telefono" required>
+                            <label for="telefono" class="label">Número de contacto telefónico</label>
+                        </div>
+                        <div class="form-field col-lg-12">
+                            <input type="text" id="mensaje" class="input-text" name="mensaje" required>
+                            <label for="mensaje" class="label">Mensaje</label>
+                        </div>
+                        <div class="form-field col-lg-12">
+                            <input type="submit" name="enviar" class="submit-btn" value="enviar mensaje" >
+                        </div>
+                    </div>
+
+                    <!-- <form action="#">
                         <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre" required>
                         <input type="text" name="apellido" class="form-control" placeholder="Ingrese su apellido">
                         <input type="text" name="email" class="form-control" placeholder="ejemplo@email.com" required>
                         <textarea name="mensaje" class="form-control" placeholder="Introduzca su mensaje" rows="4" required></textarea>
-                        <input type="submit" name="enviar" class="form-control submit" value="enviar mensaje" >
-                    </form>
+                        <input type="submit" name="enviar" class="submit-btn" value="enviar mensaje">
+                    </form> -->
                 </div>
             </div> 
         </main> 
