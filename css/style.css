@@ -58,9 +58,7 @@ body{
     color: #000;
     float: left;
     padding: 30px; 
-    margin-left: 20px;
-    margin-top: 40px;      
-    
+    margin-left: 20px;    
 }
 
 .welcome-call h2{
@@ -129,7 +127,9 @@ footer i{
     font-weight: bold;
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     text-align: center;
-    margin: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 100vh;
 
 }
 .title-about p{
