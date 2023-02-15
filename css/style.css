@@ -133,36 +133,66 @@ footer i {
 }
 
 /*nuestros-servicios*/
-.services {
-  height: 100vh;
-  width: 100%;
-  background: #ccc;
-}
-.services .services-left {
-  text-align: left;
-  float: left;
-  margin-left: 60px;
-}
-.services .services-left h2 {
-  color: #ffc0cb;
-  margin-bottom: 8px;
-  font-size: 55px;
-  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-}
-.services .services-left ul {
+.services .title-services {
+  background-color: #fff;
   color: #000;
+  height: 100vh;
+}
+.services .title-services h2 {
+  color: #f8b3be;
+  font-size: 55px;
+  font-weight: bold;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 100vh;
+}
+.services .title-services .caja {
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  line-height: 100%;
+  border-radius: 25px;
+  border: 5px solid #000;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
   font-size: 22px;
-  padding: 20px;
-  line-height: 50px;
+  text-shadow: 0 0 5px #000;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
 }
-.services .services-left ul li {
-  list-style-type: disc;
-  list-style-position: inside;
+.services .title-services .caja1 {
+  background-color: #ff9cae;
+  box-shadow: 0 0 5px, white;
 }
-.services .services-right {
-  float: right;
-  max-height: 100vh;
-  overflow: hidden;
+.services .title-services .caja2 {
+  background-color: #ff7990;
+  box-shadow: 0 0 5px, white;
+}
+.services .title-services .caja3 {
+  background-color: #ff5573;
+  box-shadow: 0 0 5px, white;
+}
+.services .title-services .caja4 {
+  background-color: #ff3155;
+  box-shadow: 0 0 5px, white;
+}
+.services .title-services .caja5 {
+  background-color: #ff0e38;
+  box-shadow: 0 0 5px, white;
+}
+.services .title-services .caja6 {
+  background-color: #e90029;
+  box-shadow: 0 0 5px, white;
+}
+.services .img-services {
+  background-image: url(../images/services-new.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 /*dónde-estamos*/
