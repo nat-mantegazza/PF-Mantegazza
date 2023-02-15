@@ -73,11 +73,11 @@ body .welcome .welcome-call p {
   max-width: 450px;
 }
 body .welcome .welcome-call a {
+  border: 2px solid #000;
+  border-radius: 5px;
   color: #000;
   padding: 10px 20px;
-  border: 2px solid #000;
   background-color: #ffc0cb;
-  border-radius: 5px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -147,12 +147,12 @@ footer i {
   max-width: 100vh;
 }
 .services .title-services .caja {
+  border: 2px solid #000;
+  border-radius: 5px;
   height: 80%;
   background-color: #fff;
   text-align: center;
   line-height: 80%;
-  border-radius: 25px;
-  border: 5px solid #000;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
@@ -163,27 +163,27 @@ footer i {
   margin-bottom: 10px;
 }
 .services .title-services .caja1 {
-  background-color: #d3d0d0;
+  background-color: #bababa;
   box-shadow: 0 0 5px, white;
 }
 .services .title-services .caja2 {
-  background-color: #c2bdbd;
+  background-color: #a8a8a8;
   box-shadow: 0 0 5px, white;
 }
 .services .title-services .caja3 {
-  background-color: #b0abab;
+  background-color: #969696;
   box-shadow: 0 0 5px, white;
 }
 .services .title-services .caja4 {
-  background-color: #9f9898;
+  background-color: #858585;
   box-shadow: 0 0 5px, white;
 }
 .services .title-services .caja5 {
-  background-color: #8e8686;
+  background-color: #737373;
   box-shadow: 0 0 5px, white;
 }
 .services .title-services .caja6 {
-  background-color: #7c7474;
+  background-color: #616161;
   box-shadow: 0 0 5px, white;
 }
 .services .img-services {
@@ -225,7 +225,7 @@ footer i {
   max-width: 800px;
   margin: 50px auto;
   position: relative;
-  box-shadow: 0 10px 30px 0px rgb(204, 204, 204);
+  box-shadow: 0 10px 30px 0px #cccccc;
   padding: 30px;
 }
 .contact .title h2 {
@@ -282,11 +282,11 @@ footer i {
   font-size: 16px;
   font-weight: bold;
   padding: 8px 16px;
-  border: 2px solid #000;
-  border-radius: 5px;
   width: 200px;
   text-decoration: none;
   cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 5px;
 }
 
 /*media queries*/
