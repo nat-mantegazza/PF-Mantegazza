@@ -1,302 +1,272 @@
+@charset "UTF-8";
 /*inicio navbar*/
-.navbar{
-    background-color: #000;
-   
-}
-.navbar-brand{
-    color: #fff;
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-weight: bold;
-    margin:3px;
-
-    
-}
-.navbar-toggler{
-    background-color: #fff !important;
+.navbar {
+  background-color: #000;
 }
 
-.navbar-toggler-icon{
-    color: #000;
-    font-size: 22px;
-    padding: 3px;
+.navbar-brand {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 3px;
 }
 
-.navbar-item{
-    list-style: none;
-    display: inline-block;
+.navbar-toggler {
+  background-color: #fff !important;
 }
-.navbar-item a{
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #ffc0cb;
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 16px;
-    
+
+.navbar-toggler-icon {
+  color: #000;
+  font-size: 22px;
+  padding: 3px;
 }
-.navbar-item a:hover{
-    color: #F2F7F4;
-    text-decoration: underline;
+
+.navbar-item {
+  list-style: none;
+  display: inline-block;
 }
+.navbar-item a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffc0cb;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 16px;
+}
+.navbar-item a:hover {
+  color: #F2F7F4;
+  text-decoration: underline;
+}
+
 /*fin navbar*/
 /*inicio body-welcome*/
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body .welcome {
+  background: url(../images/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+body .welcome .welcome-call {
+  color: #000;
+  float: left;
+  padding: 30px;
+  margin-left: 20px;
+}
+body .welcome .welcome-call h2 {
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 450px;
+}
+body .welcome .welcome-call p {
+  margin-bottom: 40px;
+  font-size: 22px;
+  max-width: 450px;
+}
+body .welcome .welcome-call a {
+  color: #000;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background-color: #ffc0cb;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+body .welcome .welcome-call a:hover {
+  background-color: #000;
+  color: #F2F7F4;
 }
 
-.welcome{
-    background: url(../images/main.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;   
-}
-.welcome-call{
-    color: #000;
-    float: left;
-    padding: 30px; 
-    margin-left: 20px;    
-}
-
-.welcome-call h2{
-    color: #000;
-    margin-bottom: 20px;
-    font-size: 50px;
-    font-weight: bold;
-    max-width: 450px;
-    
-    
-}
-.welcome-call p{
-    margin-bottom: 40px;
-    font-size: 22px;
-    max-width: 450px;
-    
-}
-.welcome-call a{
-    color: #000;
-    padding: 10px 20px;
-    border:2px solid #000;
-    background-color: #ffc0cb;
-    border-radius: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;  
-    font-weight: bold; 
-    
-}
-.welcome-call a:hover{
-    background-color: #000;
-    color: #F2F7F4;
-}
 /*fin body-welcome*/
 /*inicio footer*/
-footer{
-    text-align: center;
-    font-size: 18px;
-    background-color: #000;   
+footer {
+  text-align: center;
+  font-size: 18px;
+  background-color: #000;
 }
-footer p{
-    color: #F2F7F4;
-       
+footer p {
+  color: #F2F7F4;
 }
-footer i{
-    text-decoration: none;
-    color: #ffc0cb;        
+footer i {
+  text-decoration: none;
+  color: #ffc0cb;
 }
+
 /*fin footer*/
 /*Nosotros*/
-.img-about {
-    background-image: url(../images/nosotros.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+.about .img-about {
+  background-image: url(../images/nosotros.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-.title-about{
-    background-color: #fff;
-    color:#000;
-    height: 100vh;
+.about .title-about {
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
 }
-
-.title-about h2{
-    color: #f8b3be;
-    font-size: 55px;
-    font-weight: bold;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    max-width: 100vh;
-
+.about .title-about h2 {
+  color: #f8b3be;
+  font-size: 55px;
+  font-weight: bold;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 100vh;
 }
-.title-about p{
-    font-size: 22px;   
-    color: #000;
-    margin: 10%;
+.about .title-about p {
+  font-size: 22px;
+  color: #000;
+  margin: 10%;
 }
-
 
 /*nuestros-servicios*/
-.services{
-    height: 100vh;
-    width: 100%;
-    background: #ccc;
-
+.services {
+  height: 100vh;
+  width: 100%;
+  background: #ccc;
 }
-.services-left{
-    text-align: left;
-    float: left;
-    margin-left: 60px;
-    
-
+.services .services-left {
+  text-align: left;
+  float: left;
+  margin-left: 60px;
 }
-.services-left h2{
-    color:#ffc0cb;
-    margin-bottom: 8px;
-    font-size: 55px;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black; 
+.services .services-left h2 {
+  color: #ffc0cb;
+  margin-bottom: 8px;
+  font-size: 55px;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
-
-.services-left ul{
-    color:#000;
-    font-size: 22px;
-    padding: 20px;
-    line-height: 50px;
-    
+.services .services-left ul {
+  color: #000;
+  font-size: 22px;
+  padding: 20px;
+  line-height: 50px;
 }
-
-.services-left ul li{
-    list-style-type: disc;
-    list-style-position: inside;
+.services .services-left ul li {
+  list-style-type: disc;
+  list-style-position: inside;
 }
-
-.services-right{
-    float:right;
-    max-height: 100vh;
-    overflow: hidden; 
+.services .services-right {
+  float: right;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 /*dónde-estamos*/
-.donde-estamos{
-    background: url(../images/city.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    
-}
-.donde-texto h2{
-    color:#ffc0cb;
-    margin-bottom: 8px;
-    font-size: 55px;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black; 
+.donde-estamos {
+  background: url(../images/city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
 }
 
-.donde-texto p{
-    color:#fff;
-    font-size: 16px;
-    padding-bottom: 10px;
+.donde-texto h2 {
+  color: #ffc0cb;
+  margin-bottom: 8px;
+  font-size: 55px;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
-.donde-map{
-    width: 80%;
-    height: 500px;
-    
+.donde-texto p {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 10px;
 }
 
+.donde-map {
+  width: 80%;
+  height: 500px;
+}
 
 /*contacto*/
-.contact{
-    max-width: 800px;
-    margin: 50px auto;
-    position: relative;
-    box-shadow: 0 10px 30px 0px rgb(204, 204, 204);
-    padding: 30px;
+.contact {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgb(204, 204, 204);
+  padding: 30px;
 }
-.contact .title h2{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 55px;
-    line-height: 48px;
-    padding-bottom: 20px;
-    color: #ffc0cb;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+.contact .title h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 55px;
+  line-height: 48px;
+  padding-bottom: 20px;
+  color: #ffc0cb;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
-.contact .title h3{
-    text-align: center;
-    font-size: 22px;
-    padding-bottom: 20px;
-    color: #000;
-}
-.contact-form .form-field{
-    position: relative;
-    margin: 32px 0;
+.contact .title h3 {
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 20px;
+  color: #000;
 }
 
-.contact-form .input-text{
-    display: block;
-    width: 100%;
-    height: 36px;
-    border-width: 0 0 2px 0;
-    border-color: #ffc0cb;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 400;
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
 }
-
-.contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
-    transform: translateY(-24px);
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #ffc0cb;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
 }
-.contact-form .input-text:focus{
-    outline: none;
+.contact-form .input-text:focus + .label, .contact-form .contact-form .input-text.not-empty + .label {
+  transform: translateY(-24px);
 }
-
-.contact-form .label{
-    position: absolute;
-    left: 20px;
-    bottom: 11px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #000;
-    cursor: text;
-    transition: transform 0.2s ease-in-out
+.contact-form .input-text:focus {
+  outline: none;
 }
-.contact-form .submit-btn{
-    display:inline-block;
-    color: #000;
-    background: #ffc0cb;
-    text-transform: uppercase;
-    font-size: 16px;  
-    font-weight: bold;
-    padding: 8px 16px;
-    border:2px solid #000;   
-    border-radius: 5px;
-    width: 200px;
-    text-decoration: none;
-    cursor: pointer;   
-    
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  cursor: text;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  color: #000;
+  background: #ffc0cb;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  width: 200px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*media queries*/
-@media only screen and (max-width:375px) {
-    .welcome-call h2{
-        font-size: 40px;
-    
-    }
+@media only screen and (max-width: 375px) {
+  .welcome-call h2 {
+    font-size: 40px;
+  }
 }
-
-@media only screen and (max-width:414px) {
-    .welcome-call h2{
-        font-size: 35px;
-    }
-    
-}
-@media only screen and (max-width: 576px) {
-    .about{
-
-    }
-    
-}
+@media only screen and (max-width: 414px) {
+  .welcome-call h2 {
+    font-size: 35px;
+  }
+}/*# sourceMappingURL=style.css.map */
