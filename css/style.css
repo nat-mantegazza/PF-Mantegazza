@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/*variables: color*/
+/*variables: fonts*/
 /*inicio navbar*/
 .navbar {
   background-color: #000;
@@ -269,6 +271,4 @@ footer i {
   .welcome-call h2 {
     font-size: 35px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

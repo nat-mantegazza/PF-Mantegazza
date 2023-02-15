@@ -1,17 +1,21 @@
+/*variables: color*/
 $color1: #fff;
 $color2: #000;
 $color3: #ffc0cb;
 $color4: #F2F7F4;
 $color5: #f8b3be;
-/*inicio navbar*/
+/*variables: fonts*/
+$fontbrand: 'Times New Roman', Times, serif;
+$fontweb: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+/*inicio navbar*/
 .navbar{
     background-color: $color2;
 }
 .navbar-brand{
     color: $color1;
     font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $fontbrand;
     text-decoration: none;
     text-transform: capitalize;
     font-weight: bold;
@@ -35,7 +39,7 @@ $color5: #f8b3be;
         text-transform: capitalize;
         color: $color3;
         font-size: 18px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: $fontweb;
         padding: 16px;
         
     }
@@ -48,7 +52,7 @@ $color5: #f8b3be;
 /*fin navbar*/
 /*inicio body-welcome*/
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fontweb;
     .welcome{
         background: url(../images/main.jpg);
         background-size: cover;
