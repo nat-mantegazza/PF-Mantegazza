@@ -217,9 +217,9 @@ footer i {
   padding-bottom: 10px;
 }
 
-.donde-map {
-  width: 80%;
-  height: 500px;
+.donde-map .googlemap {
+  width: 100%;
+  height: 75vh;
 }
 
 /*contacto*/

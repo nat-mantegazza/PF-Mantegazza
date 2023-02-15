@@ -213,11 +213,11 @@ footer{
     }
 }
 .donde-map{
-    width: 80%;
-    height: 500px;
-    
+    .googlemap{
+        width: 100%;
+        height: 75vh;
+    }
 }
-
 
 /*contacto*/
 .contact{
