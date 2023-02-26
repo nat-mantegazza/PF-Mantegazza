@@ -1,1 +1,38 @@
-/*# sourceMappingURL=estilos.css.map */
+/*variables: color*/
+/*variables: fonts*/
+header .navbar {
+  background-color: #000;
+}
+header .navbar-brand {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 3px;
+}
+header .navbar-toggler {
+  background-color: #fff !important;
+}
+header .navbar-toggler-icon {
+  color: #000;
+  font-size: 22px;
+  padding: 3px;
+}
+header .navbar-item {
+  list-style: none;
+  display: inline-block;
+}
+header .navbar-item a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffc0cb;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 16px;
+}
+header .navbar-item a:hover {
+  color: #F2F7F4;
+  text-decoration: underline;
+}/*# sourceMappingURL=estilos.css.map */

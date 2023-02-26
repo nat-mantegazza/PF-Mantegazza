@@ -1,0 +1,41 @@
+body{
+    font-family: $fontweb;
+    .welcome{
+        background: url(../images/main.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;   
+        .welcome-call{
+            color: $color2;
+            float: left;
+            padding: 30px; 
+            margin-left: 20px; 
+            h2{
+                color: $color2;
+                margin-bottom: 20px;
+                font-size: 50px;
+                font-weight: bold;
+                max-width: 450px;  
+            }   
+            p{
+                margin-bottom: 40px;
+                font-size: 22px;
+                max-width: 450px;        
+            }
+            a{
+                @include border();
+                color: $color2;
+                padding: 10px 20px;
+                background-color: $color3;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;  
+                font-weight: bold; 
+            }
+            a:hover{
+                background-color: $color2;
+                color: $color4;
+            }
+        }
+    }
+}

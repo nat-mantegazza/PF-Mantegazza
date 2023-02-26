@@ -1,0 +1,41 @@
+header{
+    .navbar{
+        background-color: $color2;
+    }
+    .navbar-brand{
+        color: $color1;
+        font-size: 22px;
+        font-family: $fontbrand;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: bold;
+        margin:3px;
+    }
+    .navbar-toggler{
+        background-color: $color1 !important;
+    }
+    
+    .navbar-toggler-icon{
+        color: $color2;
+        font-size: 22px;
+        padding: 3px;
+    }
+    
+    .navbar-item{
+        list-style: none;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            color: $color3;
+            font-size: 18px;
+            font-family: $fontweb;
+            padding: 16px;
+            
+        }
+        a:hover{
+            color: $color4;
+            text-decoration: underline;
+        }
+    }
+}
