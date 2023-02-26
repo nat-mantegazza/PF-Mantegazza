@@ -1,5 +1,7 @@
 @import "variables.scss";
 
+@import "mixins.scss";
+
 @import "header.scss";
 @import "welcome.scss";
 @import "footer.scss";
@@ -7,3 +9,5 @@
 @import "servicios.scss";
 @import "donde-estamos.scss";
 @import "contacto.scss";
+
+@import "media-queries.scss";
