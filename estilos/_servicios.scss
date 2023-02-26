@@ -1,0 +1,43 @@
+.services{
+    .title-services{
+        background-color: $color1;
+        color:$color2;
+        height: 100vh;
+        h2{
+            color: $color5;
+            font-size: 55px;
+            text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+            text-align: left;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            max-width: 100vh;
+        }
+        .caja{
+            @include border();            
+            background-color: $color1;
+            text-align: center;
+            line-height: 80%;
+            font-weight: bold;
+            font-family: $fontweb;
+            text-transform: uppercase;
+            font-size: 18px;
+            text-shadow: 0 0 5px $color2;
+            color: $color1;
+            padding: 10px 20px;
+            margin-bottom: 10px;            
+        }
+            
+        @for $i from 1 through 6 {
+            .caja#{$i} {
+                background-color: darken($color6, $i * 7%);
+                box-shadow: 0 0 5px , lighten($color1, $i * 7%);
+            }
+        }
+    }
+    .img-services {
+        background-image: url(../images/services.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+}

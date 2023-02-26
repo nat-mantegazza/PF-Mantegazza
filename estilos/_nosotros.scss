@@ -1,0 +1,29 @@
+.about{
+    .img-about {
+        background-image: url(../images/nosotros.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .title-about{
+        background-color: $color1;
+        color:$color2;
+        height: 100vh;
+        
+        h2{
+            color: $color5;
+            font-size: 55px;
+            text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+            text-align: right;
+            margin-bottom: 10%;
+            margin-top: 10%;
+            max-width: 100vh;
+            padding: 10%;
+        }
+        p{
+            font-size: 22px;   
+            color: $color2;
+            padding: 10%;
+        }
+    }
+}
